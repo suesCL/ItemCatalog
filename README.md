@@ -30,6 +30,8 @@ The app utilizes Flask framework for routing and templating and employs SQLite d
   * Check to see if the database has the user by verifying auth token or username
 
 * **CRUD**
+
+
 Add **@auth.login_required** decorator at the begining of each CRUD method to ensure authorization and authentication 
 
 ## Installation
