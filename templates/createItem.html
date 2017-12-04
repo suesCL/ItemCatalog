@@ -1,0 +1,26 @@
+<html>
+
+<head></head>
+
+<body>
+<h1> Create A New Item </h1>
+
+<form action="#" method = 'post'>
+
+	<p>Name:</p>
+		<input type ='text' size='30' name='name'>
+	<p>Description:</p>
+		<input type ='text' size='30' name='description'>
+	<p>Price:</p>
+		<input type ='text' size='30' name='price'>
+		
+	
+<input type='submit' value='Create'>
+
+
+<a href = "{{url_for('showItems', category_id = category_id)}}"> Cancel </a>
+
+
+</form>
+</body>
+</html>

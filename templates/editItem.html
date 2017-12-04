@@ -1,0 +1,20 @@
+<html>
+	
+<head></head>
+
+<body>
+	<div>
+		<h1>{{ item.name }}</h1>
+		<form action="#" method = 'post'>
+			<p>Description:</p>
+			<input type ='text' size='30' placeholder = "{{item.description}}" name='description'>
+			<p>Price:</p>
+			<input type ='text' size='30' placeholder = "{{item.price}}" name='price'>
+            <input type='submit' value='Edit'>
+		<a href = "{{url_for('itemInfo', category_id = category_id,item_id = item.id)}}"> Cancel </a>
+
+
+	</div>
+</body>
+
+</html>

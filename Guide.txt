@@ -1,0 +1,34 @@
+Item Catalog: Getting Started
+
+Project Description:
+In this project, you will be developing a web application that provides a list of items within a variety of categories 
+integrate third party user registration and authentication
+Authenticated users should have the ability to post, edit, and delete their own items.
+
+======================
+the homepage displays all current categories with the latest added items.
+        
+Selecting a specific category shows you all the items available for that category.
+
+Selecting a specific item shows you specific information about that item.
+
+After logging in, a user has the ability to add, update, or delete item information. Users should be able to modify only those items that they themselves have created.
+
+
+Note that the link is ‘http://localhost:8000/catalog/Snowboarding/Snowboard’. 
+This is to ensure ease of readability.
+
+
+The application should provide a JSON endpoint at the very least.
+==========================
+Getting Started
+
+There are four parts that you will need to complete:
+@the HTML (structure of the pages)
+@the CSS (the style of the pages)
+@the Flask Application (to put it online)
+@it must include authentication/authorization to allow users to login before making changes
+@the database (to store and organize the information)
+As long as you hit these four parts, it doesn’t matter where you begin, whether you begin with the HTML/CSS or Flask and the database. If you’re looking for a little bit more guidance
+
+====================================
